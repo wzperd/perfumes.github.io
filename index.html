@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emanuel Jimenez Sanchez | Ingeniero en Sistemas</title>
+  <meta name="description" content="Ingeniero en Sistemas con experiencia en desarrollo web front-end y soluciones tecnológicas. República Dominicana.">
+  <meta name="author" content="Emanuel Jimenez Sanchez">
+  <meta name="theme-color" content="#0c1424">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Emanuel Jimenez Sanchez | Ingeniero en Sistemas">
+  <meta property="og:description" content="Desarrollo web front-end y soluciones tecnológicas.">
+  <meta property="og:image" content="img/ema.jpg">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230c1424'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23b9d2ff'%3EEJ%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="120" tabindex="0">
+
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera" data-bs-theme="dark">
+    <div class="container text-center">
+      <a class="logo" href="#inicio">Emanuel Jimenez Sanchez</a>
+      <nav class="navbar navbar-expand-md justify-content-center p-0" id="menu" aria-label="Principal">
+        <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#enlaces" aria-controls="enlaces" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="enlaces">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- Inicio -->
+    <section class="inicio" id="inicio">
+      <canvas class="estrellas" id="estrellas" aria-hidden="true"></canvas>
+      <div class="planeta-caja" aria-hidden="true">
+        <div class="planeta"><span class="orbita"><i class="luna"></i></span></div>
+      </div>
+      <div class="container text-center contenido-inicio">
+        <div class="linea-corta"></div>
+        <p class="sobretitulo">Ingeniero en Sistemas · República Dominicana</p>
+        <h1>Bienvenido a mi Página</h1>
+        <p class="roles">Soy <span id="escribiendo" data-frases="Ingeniero en Sistemas|Desarrollador web front-end|Futuro emprendedor">Ingeniero en Sistemas</span></p>
+        <p class="texto-inicio">Ingeniero en Sistemas con experiencia en desarrollo web front-end y soluciones tecnológicas.</p>
+        <div class="botones-inicio">
+          <a class="boton boton-claro" href="#sobre-mi">Conóceme Más</a>
+          <a class="boton boton-borde" href="https://wa.me/18092184692" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>Escríbeme por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="seccion fondo-a" id="sobre-mi">
+      <div class="container">
+        <p class="etiqueta">Perfil</p>
+        <h2 class="titulo-seccion">Sobre Mí</h2>
+        <div class="adorno"></div>
+
+        <div class="sobre-mi aparecer">
+          <div class="foto">
+            <img src="img/ema.jpg" alt="Foto de Emanuel Jimenez Sanchez" width="240" height="240" loading="lazy">
+          </div>
+          <p class="sobre-texto">Futuro Emprendedor Ingeniero en Sistemas con experiencia en desarrollo web y manejo de bases de datos. Apasionado por la tecnología y el aprendizaje continuo.</p>
+
+          <div class="row g-3 datos justify-content-center">
+            <div class="col-6 col-md-3"><div class="dato"><strong data-contar="8">8</strong><span>Tecnologías</span></div></div>
+            <div class="col-6 col-md-3"><div class="dato"><strong>Front&#8209;end</strong><span>Especialidad</span></div></div>
+            <div class="col-12 col-md-3"><div class="dato"><strong>RD</strong><span>Puerto Plata y Sosúa</span></div></div>
+          </div>
+
+          <ul class="tecnologias list-unstyled">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+            <li>Bases de datos</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="seccion fondo-b" id="servicios">
+      <div class="container">
+        <p class="etiqueta">Lo que ofrezco</p>
+        <h2 class="titulo-seccion">Servicios</h2>
+        <div class="adorno"></div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-sm-6 col-lg-3 aparecer">
+            <article class="tarjeta h-100 text-center">
+              <div class="tarjeta-cuerpo">
+                <div class="icono"><i class="bi bi-code-slash"></i></div>
+                <h3>Desarrollo web front-end</h3>
+                <p>Interfaces web rápidas, modernas y adaptables a celular, hechas con HTML, CSS, JavaScript y Bootstrap.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 aparecer">
+            <article class="tarjeta h-100 text-center">
+              <div class="tarjeta-cuerpo">
+                <div class="icono"><i class="bi bi-wordpress"></i></div>
+                <h3>Sitios en WordPress</h3>
+                <p>Páginas que puedes administrar tú mismo: textos e imágenes desde el panel.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 aparecer">
+            <article class="tarjeta h-100 text-center">
+              <div class="tarjeta-cuerpo">
+                <div class="icono"><i class="bi bi-database"></i></div>
+                <h3>Bases de datos</h3>
+                <p>Diseño y manejo de bases de datos para guardar y consultar la información de tu negocio.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 aparecer">
+            <article class="tarjeta h-100 text-center">
+              <div class="tarjeta-cuerpo">
+                <div class="icono"><i class="bi bi-lightbulb"></i></div>
+                <h3>Soluciones tecnológicas</h3>
+                <p>Ayuda para elegir y poner en marcha la herramienta digital que tu negocio necesita.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="seccion fondo-a" id="contacto">
+      <div class="container">
+        <p class="etiqueta">Hablemos</p>
+        <h2 class="titulo-seccion">Contacto</h2>
+        <div class="adorno"></div>
+        <p class="text-center intro-contacto">¿Tienes un proyecto en mente? ¡Contáctame! Puedes hacerlo al siguiente número: <a href="tel:+18092184692"><strong>(809) 218-4692 RD</strong></a></p>
+
+        <div class="contacto-grid">
+          <aside class="lateral aparecer" aria-label="Datos de contacto">
+            <a class="lateral-item" href="tel:+18092184692">
+              <span class="lateral-icono"><i class="bi bi-telephone"></i></span>
+              <span><small>Llámame</small><strong>(809) 218-4692</strong></span>
+            </a>
+            <a class="lateral-item" href="https://wa.me/18092184692" target="_blank" rel="noopener">
+              <span class="lateral-icono"><i class="bi bi-whatsapp"></i></span>
+              <span><small>WhatsApp</small><strong>Escríbeme directo</strong></span>
+            </a>
+            <div class="lateral-item">
+              <span class="lateral-icono"><i class="bi bi-geo-alt"></i></span>
+              <span><small>Ubicación</small><strong>República Dominicana</strong></span>
+            </div>
+          </aside>
+
+          <div class="form-caja aparecer" id="formCaja">
+            <div class="progreso" aria-hidden="true"><span id="progresoBarra"></span></div>
+            <form id="formulario" novalidate>
+              <h3 class="form-titulo">Cuéntame tu idea</h3>
+              <p class="form-sub" id="formSub">Completa los campos y te respondo por WhatsApp.</p>
+
+              <fieldset class="intereses">
+                <legend>¿Qué necesitas? <span>(opcional)</span></legend>
+                <label class="interes"><input type="checkbox" name="interes" value="Desarrollo web front-end"><span>Desarrollo web</span></label>
+                <label class="interes"><input type="checkbox" name="interes" value="Sitio en WordPress"><span>WordPress</span></label>
+                <label class="interes"><input type="checkbox" name="interes" value="Base de datos"><span>Base de datos</span></label>
+                <label class="interes"><input type="checkbox" name="interes" value="Otra solución"><span>Otro</span></label>
+              </fieldset>
+
+              <div class="row g-3 mt-1">
+                <div class="col-md-6">
+                  <div class="campo">
+                    <input id="nombre" name="nombre" type="text" placeholder=" " autocomplete="name" required>
+                    <label for="nombre">Nombre</label>
+                    <i class="bi bi-person campo-icono"></i>
+                    <i class="bi bi-check-circle-fill campo-ok"></i>
+                    <span class="campo-error">Escribe tu nombre.</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="campo">
+                    <input id="correo" name="correo" type="email" placeholder=" " autocomplete="email">
+                    <label for="correo">Correo <em>(opcional)</em></label>
+                    <i class="bi bi-envelope campo-icono"></i>
+                    <i class="bi bi-check-circle-fill campo-ok"></i>
+                    <span class="campo-error">Escribe un correo válido.</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="campo campo-texto">
+                    <textarea id="mensaje" name="mensaje" placeholder=" " rows="5" maxlength="500" required></textarea>
+                    <label for="mensaje">Cuéntame de tu proyecto</label>
+                    <i class="bi bi-chat-text campo-icono"></i>
+                    <i class="bi bi-check-circle-fill campo-ok"></i>
+                    <span class="campo-error">Escribe al menos 10 caracteres.</span>
+                    <span class="contador" id="contador">0 / 500</span>
+                  </div>
+                </div>
+              </div>
+
+              <button class="btn-enviar" id="btnEnviar" type="submit" data-estado="normal">
+                <span class="e-normal"><i class="bi bi-whatsapp"></i> Enviar por WhatsApp</span>
+                <span class="e-cargando"><span class="rueda"></span> Preparando…</span>
+                <span class="e-listo">
+                  <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  ¡Listo!
+                </span>
+              </button>
+              <p class="form-nota" id="formNota" role="status" aria-live="polite">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="container text-center">
+      <div class="pie-iconos">
+        <a href="https://github.com/jimenez-x" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://wa.me/18092184692" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+      <p class="mb-0">© <span id="anio">2026</span> Emanuel Jimenez Sanchez - Ingeniero en Sistemas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="flotante-wa" href="https://wa.me/18092184692?text=Hola%20Emanuel%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+  <button class="flotante-subir" id="btnSubir" type="button" aria-label="Volver arriba"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
